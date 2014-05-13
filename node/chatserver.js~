@@ -86,6 +86,9 @@ mongo.connect('mongodb://127.0.0.1/chat', function(err, db) {
 				mid = data.userId,
 				fid = data.friendId;
 
+				user.find({_id:mid}).toArray() {
+
+				}
 		});
 
 	});
